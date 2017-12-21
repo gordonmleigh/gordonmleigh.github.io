@@ -1,0 +1,23 @@
+
+@media only screen and (max-width: 768px) {
+    .home {
+        display: block;
+
+        .me {
+            margin: 0 auto;
+        }
+
+        .text {
+            margin: 3em 0 0;
+        }
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .btn-bar {
+        .btn {
+            display: block;
+            margin: 0 0 .6em;
+        }
+    }
+}

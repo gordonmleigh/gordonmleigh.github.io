@@ -1,0 +1,20 @@
+
+.site-header {
+    background: $color2;
+    color: #fff;
+    font-family: $heading-font-family;
+    font-weight: $heading-font-weight;
+    margin: 0 0 3rem;
+
+    a {
+        color: inherit;
+        font-weight: $heading-font-weight;
+        text-decoration: none;
+    }
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 50rem;
+    padding: 0 1rem;
+}

@@ -1,0 +1,57 @@
+
+.home {
+    display: flex; 
+
+    .me {
+        border: solid 1px $color2;
+        border-radius: 50%;
+        display: block;
+        height: 15em;
+        transform: scaleX(-1);
+        width: 15em;
+    }
+
+    .text {
+        margin: 0 0 0 3em;
+    }
+
+    h1 {
+        font-size: 1.8em;
+        margin: 0 0 .8em;
+        text-align: center;
+    }
+
+    .subtitle {
+        text-align: center;
+    }
+}
+
+.site-header {
+    padding: 0.8em 0;
+
+    .site-title {
+        font-family: $heading-font-family;
+        font-size: 1.1em;
+    }
+}
+
+
+.btn {
+    border: 1px solid $color2;
+    color: $color2;
+    display: inline-block;
+    margin: 0;
+    padding: .5em 1em;
+    text-decoration: none;
+
+    &.is-primary {
+        background-color: $color2;
+        color: #fff;
+    }
+}
+
+.btn-bar {
+    .btn {
+        margin: 0 .6em .6em 0;
+    }
+}

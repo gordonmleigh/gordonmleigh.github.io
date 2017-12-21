@@ -1,0 +1,82 @@
+body, html {
+    background-color: $base-bg-color;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: $body-text-color;
+    font-family: $body-font-family;
+    font-size: $base-font-size;
+    font-weight: $font-weight-normal;
+    line-height: $base-line-height;
+}
+
+a {
+    color: $color1;
+    font-weight: $font-weight-normal;
+    text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: $body-text-color;
+    font-family: $heading-font-family;
+    font-size: 1em;
+    font-weight: $heading-font-weight;
+    margin: 0 0 1em;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    border-bottom: solid 1px $body-text-color;
+    font-size: 1.5em;
+    margin-top: 1.5em;
+}
+
+h3 {
+    font-size: 1.1em;
+    margin-top: 1.5em;
+}
+
+h4 {
+    font-family: $body-font-family;
+    font-size: 1em;
+    font-weight: $font-weight-strong;
+    margin: 0;
+}
+
+p {
+    margin: 0 0 1em;
+}
+
+strong {
+    font-weight: $font-weight-strong;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: .1em .5em;
+    text-align: left;
+    vertical-align: top;
+}
+
+td {
+    border: solid 1px $color2;
+}
+
+th {
+    background-color: $color2;
+    color: #fff;
+    font-weight: $font-weight-strong;
+
+    strong {
+        font-weight: $font-weight-normal;
+    }
+}

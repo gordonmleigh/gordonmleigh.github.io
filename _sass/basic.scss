@@ -1,0 +1,27 @@
+
+$color1: rgb(5, 91, 170);
+$color2: darken($color1, 20%);
+
+$base-bg-color: #fff !default;
+$base-font-size: 1rem !default;
+$base-line-height: 1.75 !default;
+
+$body-bg-color: #fff !default;
+$body-font-family: 'Source Sans Pro', sans-serif !default;
+$body-text-color: #111 !default;
+
+$font-weight-normal: 400;
+$font-weight-strong: 600;
+
+$heading-font-family: 'Raleway', sans-serif !default;
+$heading-font-weight: 500;
+
+$separator-color: #eee;
+
+
+@import
+    "basic/base",
+    "basic/layout",
+    "basic/modules",
+    "basic/device"
+;
