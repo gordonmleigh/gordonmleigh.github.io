@@ -3,12 +3,8 @@
     display: flex; 
 
     .me {
-        border: solid 1px $color2;
-        border-radius: 50%;
         display: block;
-        height: 15em;
-        transform: scaleX(-1);
-        width: 15em;
+        height: 23.5em;
     }
 
     .text {

@@ -4,6 +4,9 @@ title: "Curriculum Vitae"
 permalink: /cv/
 ---
 
+* TOC
+{:toc}
+
 ## Profile
 
 I am a highly motivated and skilled software engineer with a masters degree in electrical and mechanical engineering.  I previously ran a software product development consultancy, delivering bespoke software for clients across several industries.  I don't limit myself to a single technology stack—I use the right tools for the current job, and continually learn new things to keep my skills sharp.  I like work that stretches me mentally, lets me learn new things, and provides an opportunity for me to deliver a fantastic solution.
@@ -11,7 +14,7 @@ I am a highly motivated and skilled software engineer with a masters degree in e
 
 ## Skills
 
-| Skills | Projects |
+| Skills | Selected projects |
 |----|----|
 | .NET, C# | [Coats Dyehouse System](#cds), [Coats ColourStitch rearchitecture](#colourstitch), [MethaMeasure dispensing system](#mmd), [Stugo.Interop](#stugointerop) |
 | node.js, JavaScript (ES6+), TypeScript | [CDRx](#cdrx), [promised-mongo](#promised-mongo), [module-init](#module-init) |
@@ -29,24 +32,24 @@ I am a highly motivated and skilled software engineer with a masters degree in e
 
 <a name="colourstitch"></a>
 
-#### ColourStitch Rearchitecture, July 2017–Present
+#### ColourStitch Rearchitecture, July 2017–February 2018
 
-Currently researching software architecture patterns to find a good balance between ease of adoption and maintainability/testability and then driving the rewrite of a substantial legacy manufacturing quality system in the textile dyeing business.  Maintenance and support of legacy system (C#, WPF, WinForms, SQL Server) has required me to quickly get to grips with a highly complex domain.
+I researched software architecture patterns to find a good balance between ease of adoption and maintainability/testability in order to drive the rewrite of a substantial legacy manufacturing quality system in the textile dyeing business. Maintenance and support of legacy system (C#, WPF, WinForms, SQL Server) has required me to quickly get to grips with a highly complex domain.
 
 <a name="cds"></a>
 
-#### Coats Dyehouse System, August 2017–Present
+#### Coats Dyehouse System, August 2017–February 2018
 
-Tasked with improving code quality and maintainability of a production automation system through application of my substantial knowledge in this field, as well as setting up build tooling and install packages (C#, WPF, SQL Server, MySQL, PostgreSQL, Jet 4.0). This project has allowed me to bring industry best practices to the team by driving documentation standards, project management (JIRA) and system architecture standards.
+Tasked with improving code quality and maintainability of a production automation system through application of my expertise in this field, as well as setting up build tooling and install packages (C#, WPF, SQL Server, MySQL, PostgreSQL, Jet 4.0). This project has allowed me to bring industry best practices to the team by driving documentation standards, project management (JIRA) and system architecture standards.
 
 
 ### Director, Stugo Ltd, July 2008–July 2017
 
-Stugo was a bespoke software development consultancy specialising in complex automation projects that comprised 7 people at its largest.
+Stugo was a bespoke software development consultancy specialising in complex automation projects that comprised 7 people at its largest and specialised in complex automation projects.
 
 <a name="kps"></a>
 
-#### Kite Power Sytems Ltd: Protocol interop and testing tools, March 2017–July 2017
+#### Kite Power Systems Ltd: Protocol interop and testing tools, March 2017–July 2017
 
 A system-critical tool written in Go, to convert between proprietary GPS radio data stream format to client’s own automation protocol, in an industrial system which generates electricity from kites. Additionally, a related tool to inspect the communications to gain insight into radio operation and test the system. Responsible for whole project end-to-end.
 
@@ -73,7 +76,7 @@ interface for managing data entities (sensors, homes, etc) written as client-sid
 
 #### Operations and business management
 
-I undertook almost all of the management and accounting activities in the business, requiring me to confidently liase with and negotiate with suppliers, manage cashflow, perform payroll and tax duties, and effectively manage my time to meet these obligations while also bringing in business and undertaking client work.  I hired our developers, managed their performance, and regrettably let them go when the business ran out of cash, requiring me to have strong interpersonal skills and a thick enough skin to do the difficult jobs.
+I undertook almost all of the management and accounting activities in the business, requiring me to confidently liaise with and negotiate with suppliers, manage cashflow, perform payroll and tax duties, and effectively manage my time to meet these obligations while also bringing in business and undertaking client work.  I hired our developers, managed their performance, and regrettably let them go when the business ran out of cash, requiring me to have strong interpersonal skills and a thick enough skin to do the difficult jobs.
 
 #### Project management
 
@@ -82,6 +85,11 @@ I tasked myself with managing our work across multiple projects to ensure that w
 #### Business development and client relations
 
 I was responsible for all business development activity and most of the client relations, allowing me to develop my networking, negotiating, and communication skills.  I at times had to deliver bad news which required me to be clear, professional and sometimes contrite, while managing client expectations. 
+
+
+### Research Student, University of Strathclyde, October 2012–April 2013
+
+Undertaking research on interconnected power systems in civil jet aircraft. Left to focus on other projects. In this short time I produced a <a href="#sae-paper">conference paper</a>, presented at SAE 2013 AeroTech Congress & Exhibition in Montreal, September 2013. I also participated in a residential business course run by the university and was selected in the top 3 of 8 teams at a business pitch competition which followed. I tutored 3 undergraduate classes during semester 2
 
 
 ### Other projects
@@ -104,6 +112,14 @@ Written in Go. A small, fast reverse-proxy with ACME support (automatically prov
 Written TypeScript.  Loads a collection of interdependent modules into a DAG and loads them in the correct order. Available on [GitHub](https://github.com/stugotech/module-init).
 
 
+## Publications
+
+<a name="sae-paper"></a>
+
+#### Defining Requirements for the Implementation of Interconnected Generation in Future Civil Aircraft
+
+Mackenzie-Leigh, G., Norman, P., Galloway, S., Burt, G., Orr. E., SAE Technical Paper 2013-01-2125, 2013, [doi: 10.4271/2013-01-2125](https://doi.org/10.4271/2013-01-2125).
+
 ## Education
 
 ### Masters Syllabus (no award), Medical Devices, University of Strathclyde, September 2013–August 2014
@@ -121,7 +137,7 @@ Fifth year (group) project: design and build of a system to monitor and track oc
 Fourth year (individual) project: design and build of a high current test apparatus for supercapacitors.
 
 
-## Other passions
+## Other things
 
-Outside my professional life, my passions are my amazing baby boy, and making things: furniture, electronics, soap and dinner, in no particular order.  I secretly possess the ability to unicycle. I can't juggle.
+Outside my professional life, I like to make things: furniture, electronics, music and dinner, in no particular order.  I secretly possess the ability to unicycle. I can't juggle.
 
